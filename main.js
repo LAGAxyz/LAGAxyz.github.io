@@ -1,5 +1,5 @@
 
-const webSite = document.getElementById("webSSite");
+const webSite = document.getElementById("webSite");
 const perfilGH = document.getElementById("perfilGH");
 
 const iconFB = document.getElementById("iconFB");
@@ -28,3 +28,17 @@ const typed = new Typed('.typedJS', options);
 setInterval(() => {
   bar.value === 100 ? bar.value = 0 : bar.value += 1;
 }, 1000);
+
+iconFB.onclick = ()=>{irA("https://www.facebook.com/LAGAxyz/");};
+iconIG.onclick = ()=>{irA("https://www.instagram.com/lagaxyz/");};
+iconLI.onclick = ()=>{irA("https://www.linkedin.com/in/lagaxyz/");};
+iconYT.onclick = ()=>{irA("https://www.youtube.com/channel/UCa73fp-v3eZJBZtDBNklFPg");};
+iconWA.onclick = ()=>{irA("https://wa.me/51977513393");};
+iconGH.onclick = ()=>{irA("https://github.com/LAGAxyz");};
+
+webSite.onclick = ()=>{irA("https://www.laga.xyz");};
+perfilGH.onclick = ()=>{irA("https://github.com/LAGAxyz");};
+
+const irA = (url)=>{
+  location.href = url;
+};
