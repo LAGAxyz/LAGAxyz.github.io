@@ -58,5 +58,24 @@
 }
 
 @media (max-width: 768px){
-
+    .message-one{
+        flex-direction: column-reverse;
+    }
+    
+    .my-user{
+        align-items: flex-start;
+    }
+    
+    .my-message{
+        min-height: 150px;
+    }
+    
+    .message-two{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    
+    .gh-user{
+        align-items: flex-end;
+    }
 }
