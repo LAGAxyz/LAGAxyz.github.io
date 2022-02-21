@@ -29,7 +29,7 @@ setInterval(() => {
   bar.value === 100 ? bar.value = 0 : bar.value += 1;
 }, 1000);
 
-iconFB.onclick = ()=>{irA("https://www.facebook.com/LAGAxyz/");};
+iconFB.onclick = ()=>{irA("https://www.facebook.com/gutierrezanicamaluisalberto/");};
 iconIG.onclick = ()=>{irA("https://www.instagram.com/lagaxyz/");};
 iconLI.onclick = ()=>{irA("https://www.linkedin.com/in/lagaxyz/");};
 iconYT.onclick = ()=>{irA("https://www.youtube.com/channel/UCa73fp-v3eZJBZtDBNklFPg");};
