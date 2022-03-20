@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f9ff;
+    background-image: 
+    url(../assets/images/bg-top-donations.svg), 
+    url(../assets/images/bg-bottom-donations.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+main{
+    width: 500px;
+    height: 555px;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+h1{
+    font-weight: 500;
+    color: #502050;
+    animation: fadeIn 3s;
+    text-transform: uppercase;
+}
+
+p{
+    color: #937b92;
+    line-height: 18px;
+    animation: fadeIn 3s;
+}
+
+a:link,
+a:focus,
+a:hover,
+a:active,
+a:visited{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    padding: 25px;
+    line-height: 0;
+    border-radius: 30px;
+    animation: zoomIn 2s;
+    background-color: #f9218d;
+}
+
+a:hover{
+    background-color: #cc1671;
+}
+
+img{
+    width: 400px;
+    animation: fadeInUp 1.8s;
+}
+
+@media (max-width:450px){
+    h1{font-size: 20px;}
+    p{font-size: 14px;}
+    img{width: 280px;}
+}
+
+@media (max-height:599px){
+    body{
+        padding: 15px 0px;
+        height: auto;
+    }
+    main{
+        height: auto;
+    }
+}
