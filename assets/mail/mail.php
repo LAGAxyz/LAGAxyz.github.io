@@ -10,5 +10,5 @@ $email_message = "
     Message: ".$message."
 ";
 
-mail ("GutierrezAnicamaLuisAlberto@hotmail.com" , "Consulta web (www.laga.xyz)", $email_message);
+mail ("gutierrezanicamaluisalberto@hotmail.com", "Consulta web", $email_message);
 ?>
