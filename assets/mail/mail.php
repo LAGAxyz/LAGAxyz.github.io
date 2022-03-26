@@ -10,6 +10,6 @@ $email_message = "
     Message: ".$message."
 ";
 
-mail ("name@youremail.com" , "New Message", $email_message);
+mail ("GutierrezAnicamaLuisAlberto@hotmail.com" , "Consulta web (www.laga.xyz)", $email_message);
 header("location: ../mail-success.html ");
 ?>
