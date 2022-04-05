@@ -11,7 +11,6 @@
         <link rel="icon" type="image/png" href="./assets/images/favicon.png">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
         <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.css">
-
         <style>
             body{
                 width: 100%;
@@ -23,7 +22,10 @@
         </style>
     </head>
     <body>
-        <iframe src="./assets/sounds/SuperMarioBros.mp3" autoplay loop hidden></iframe>
+        <audio autoplay loop>
+            <source src="./assets/sounds/SuperMarioBros.mp3" type="audio/mp3">
+        </audio>
+        <!-- <iframe src="./assets/sounds/SuperMarioBros.mp3" autoplay loop hidden></iframe> -->
         <div class="nes-container with-title is-centered is-dark">
             <p class="title">X_X</p>
             <i class="nes-mario"></i>
