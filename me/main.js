@@ -50,7 +50,7 @@
 			
 			if ($.fn.isotope) {
                 $(".isotop-active").isotope({
-                    filter: '*',
+                    filter: '.web',
                 });
 
 					$('.portfolio-nav ul li').on('click', function() {
@@ -212,3 +212,7 @@
 		});
 	});
 })(jQuery);
+
+document.getElementById("LinkProgramadorMovil").onclick = ()=> {
+	window.open("https://play.google.com/store/apps/developer?id=LAGA", "_blank")
+}
