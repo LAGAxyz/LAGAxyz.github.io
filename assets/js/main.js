@@ -7,8 +7,7 @@ const bar = document.getElementById("bar");
 const options = {
   strings: [
       'My name is Luis Alberto Gutierrez Anicama',
-      'You can call me LAGA',
-      'This is Luis Alberto Gutierrez Anicama'
+      'You can call me LAGA'
     ],
   typeSpeed: 60,
   backSpeed: 45,
