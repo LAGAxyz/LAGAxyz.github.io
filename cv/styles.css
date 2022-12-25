@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top{
+    width: 100%;
+    height: 325px;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.foto{
+    flex: 1;
+    animation: fadeInLeft 2s;
+}
+
+.foto img{
+    border-radius: 50px;
+}
+
+.info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    animation: fadeInRight 2s;
+}
+
+.pres{
+    width: 500px;
+    color: #aab3b3;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.name{
+    color: #ccc;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.carreras,
+.idiomas,
+.experiencias{
+    width: 100%;
+    height: auto;
+}
+
+.titulo{
+    width: 100%;
+    height: 40px;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 700;
+    animation: fadeIn 4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+.contenido{
+    width: 100%;
+    height: auto;
+}
+
+.carrera{
+    width: 100%;
+    height: 80px;
+    animation: fadeIn 4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carrera .informacion,
+.certificacion .informacion,
+.experiencia .informacion{
+    flex: 3;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.carrera .informacion i,
+.certificacion .informacion i,
+.experiencia .informacion i{
+    width: 10px;
+    color: #343a40;
+    margin-right: 10px;
+}
+
+.carrera .informacion span,
+.certificacion .informacion span,
+.experiencia .informacion span{
+    color: #343a40;
+}
+
+.carrera .certificado,
+.certificacion .certificado,
+.experiencia .certificado{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnVerCertificado{
+    border: none;
+    outline: none;
+    color: #ddd;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background-color: #343a40;
+}
+
+.btnVerCertificado:hover{
+    color: #fff;
+    background-color: #23272b;
+}
+
+.idiomas .contenido{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.idioma{
+    width: 200px;
+    height: 200px;
+    animation: fadeIn 4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.idioma .lenguaje{
+    font-size: 16px;
+    font-weight: 700;
+    color: #23272b;
+    margin: 5px 0px 15px 0px;
+    text-transform: uppercase;
+}
+
+.idioma i{
+    width: 10px;
+    margin: 4px 0px;
+    color: #343a40;
+    margin-right: 10px;
+}
+
+.idioma span{
+    margin: 4px 0px;
+    color: #343a40;
+}
+
+.idioma button{
+    margin: 15px 0px 5px 0px;
+}
+
+.certificacion{
+    width: 100%;
+    height: 100px;
+    animation: fadeIn 4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.certificacion:hover{
+    background-color: #eeeeee;
+}
+
+.experiencia{
+    width: 100%;
+    height: 100px;
+    animation: fadeIn 4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.experiencia:hover{
+    background-color: #eeeeee;
+}
+
+.btnCV{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btnCV a{
+    width: 150px;
+    border: none;
+    outline: none;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 10px;
+    margin-left: 50px;
+    border-radius: 4px;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnCV a:hover{
+    color: #fff;
+    background-color: #23272b;
+}
+
+.btnCV a i{
+    width: 20px;
+    font-size: 18px;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeeedd;
+}
+
+.modal img{
+    height: 90%;
+    width: auto;
+}
+
+.modal p{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    color: #d4d4d4;
+    background-color: #650000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button::before{
+    display: none;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -10px;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+
+.button::after{
+    display: none;
+    content: "";
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    left: -80px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn-portafolio::before,
+.btn-portafolio::after{
+    background-color: #1F618D;
+}
+
+.btn-contacto::before,
+.btn-contacto::after{
+    background-color: #BA4A00;
+}
+
+.button:hover{cursor: pointer;}
+
+.btn-portafolio:hover::after,
+.btn-portafolio:hover::before,
+.btn-contacto:hover::after,
+.btn-contacto:hover::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-portafolio:hover::after{content: "Portafolio";}
+.btn-contacto:hover::after{content: "Contacto";}
+
+.button a i{color: #ddd;}
+.button:hover a i{color: #fff;}
+
+.btn-portafolio{
+    right: 20px;
+    bottom: 90px;
+    background-color: #1F618D;
+}
+
+.btn-portafolio:hover{background-color: #0c3b5a;}
+
+.btn-contacto{
+    right: 20px;
+    bottom: 25px;
+    background-color: #BA4A00;
+}
+
+.btn-contacto:hover{background-color: #793304;}
+
+.final{
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+}
+
+a:link,
+a:focus,
+a:hover,
+a:active,
+a:visited{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media(max-width:900px){
+    .pres{
+        width: 400px;
+    }
+    .name{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:800px){
+    .info{
+        gap: 15px;
+    }
+    .pres{
+        width: 350px;
+    }
+    .name{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:700px){
+    .top{
+        gap: 10px;
+        height: auto;
+        flex-direction: column;
+    }
+    .foto img{
+        width: 150px;
+    }
+    .info img{
+        display: none;
+    }
+    .pres{
+        width: 450px;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .carrera .informacion,
+    .certificacion .informacion,
+    .experiencia .informacion{
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 6px;
+    }
+    .btnVerCertificado{
+        font-size: 12px;
+    }
+    .btnCV a{
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:550px){
+    .foto img{
+        width: 125px;
+    }
+    .pres{
+        width: 300px;
+        font-size: 16px;
+    }
+    .name{
+        width: 310px;
+        font-size: 18px;
+    }
+    .carrera .certificado,
+    .certificacion .certificado,
+    .experiencia .certificado{
+        display: none;
+    }
+    .idiomas .btnVerCertificado{
+        display: none;
+    }
+}
+
+@media(max-width:350px){
+    .pres{
+        width: 250px;
+    }
+    .name{
+        width: 230px;
+        font-size: 20px;
+    }
+}
