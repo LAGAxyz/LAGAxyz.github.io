@@ -9,6 +9,7 @@
 body{
     width: 100%;
     height: auto;
+    user-select: none;
     background-color: #f5f5ff;
     font-family: 'Roboto', sans-serif;
 }
@@ -59,7 +60,6 @@ body{
 }
 
 .carreras,
-.idiomas,
 .experiencias{
     width: 100%;
     height: auto;
@@ -76,7 +76,7 @@ body{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    background-color: #000000;
+    background-color: #1F618D;
 }
 
 .contenido{
@@ -91,6 +91,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.carrera:hover{
+    background-color: #eeeeee;
 }
 
 .carrera .informacion,
@@ -146,47 +150,6 @@ body{
     background-color: #23272b;
 }
 
-.idiomas .contenido{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.idioma{
-    width: 200px;
-    height: 200px;
-    animation: fadeIn 4s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.idioma .lenguaje{
-    font-size: 16px;
-    font-weight: 700;
-    color: #23272b;
-    margin: 5px 0px 15px 0px;
-    text-transform: uppercase;
-}
-
-.idioma i{
-    width: 10px;
-    margin: 4px 0px;
-    color: #343a40;
-    margin-right: 10px;
-}
-
-.idioma span{
-    margin: 4px 0px;
-    color: #343a40;
-}
-
-.idioma button{
-    margin: 15px 0px 5px 0px;
-}
-
 .certificacion{
     width: 100%;
     height: 100px;
@@ -211,41 +174,6 @@ body{
 
 .experiencia:hover{
     background-color: #eeeeee;
-}
-
-.btnCV{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.btnCV a{
-    width: 150px;
-    border: none;
-    outline: none;
-    color: #ddd;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 8px 10px;
-    margin-left: 50px;
-    border-radius: 4px;
-    background-color: #343a40;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.btnCV a:hover{
-    color: #fff;
-    background-color: #23272b;
-}
-
-.btnCV a i{
-    width: 20px;
-    font-size: 18px;
 }
 
 .modal{
@@ -280,81 +208,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-.button{
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button::before{
-    display: none;
-    content: "";
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: -10px;
-    clip-path: polygon(0 0, 0% 100%, 100% 50%);
-}
-
-.button::after{
-    display: none;
-    content: "";
-    width: 70px;
-    height: 25px;
-    position: absolute;
-    left: -80px;
-    border-radius: 5px;
-    font-size: 12px;
-    color: #fff;
-}
-
-.btn-portafolio::before,
-.btn-portafolio::after{
-    background-color: #1F618D;
-}
-
-.btn-contacto::before,
-.btn-contacto::after{
-    background-color: #BA4A00;
-}
-
-.button:hover{cursor: pointer;}
-
-.btn-portafolio:hover::after,
-.btn-portafolio:hover::before,
-.btn-contacto:hover::after,
-.btn-contacto:hover::before{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn-portafolio:hover::after{content: "Portafolio";}
-.btn-contacto:hover::after{content: "Contacto";}
-
-.button a i{color: #ddd;}
-.button:hover a i{color: #fff;}
-
-.btn-portafolio{
-    right: 20px;
-    bottom: 90px;
-    background-color: #1F618D;
-}
-
-.btn-portafolio:hover{background-color: #0c3b5a;}
-
-.btn-contacto{
-    right: 20px;
-    bottom: 25px;
-    background-color: #BA4A00;
-}
-
-.btn-contacto:hover{background-color: #793304;}
 
 .final{
     width: 100%;
@@ -440,9 +293,6 @@ a:visited{
     .carrera .certificado,
     .certificacion .certificado,
     .experiencia .certificado{
-        display: none;
-    }
-    .idiomas .btnVerCertificado{
         display: none;
     }
 }

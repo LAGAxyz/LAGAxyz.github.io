@@ -6,17 +6,14 @@ const btnModal = document.getElementById("btnModal");
 
 document.getElementById("btn01").onclick = ()=> {
     modal.style.display = "flex";
-    imgModal.src = "../assets/img/certificaciones/iestp-sise-egresado-eti.jpg"
+    imgModal.src = "../assets/images/certificado-egreso-sise.jpg"
 }
 
-document.getElementById("btnEs").onclick = ()=> {
+document.getElementById("btn02").onclick = ()=> {
     modal.style.display = "flex";
-    imgModal.src = "../assets/img/certificaciones/idioma-castellano-nativo.jpg";
-}
-
-document.getElementById("btnEn").onclick = ()=> {
-    modal.style.display = "flex";
-    imgModal.src = "../assets/img/certificaciones/idioma-ingles-basico.jpg";
+    // TODO: adjuntar constancia de egresado del instituto de Huaycán
+    imgModal.src = "https://via.placeholder.com/300x500?text=Constancia+en+espera";
+    // imgModal.src = "../assets/images/certificado-egreso-iestph.jpg"
 }
 
 const listarCertificaciones = ()=> {
