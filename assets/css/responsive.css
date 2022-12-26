@@ -389,10 +389,10 @@
 .section-title {
 	padding: 0 10px;
 }
-.section-title h1 {
+.section-title h2 {
 	font-size: 21px;
 }
-.section-title h1 i{
+.section-title h2 i{
 	top:78%;
 }
 .section-title p{

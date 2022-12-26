@@ -511,7 +511,7 @@
 	z-index: 12;
 	display: inline-block;
 }
-#personal-area.particle .personal-text h1 {
+#personal-area.particle .personal-text h2 {
 	margin-bottom: 25px;
 }
 #personal-area.particle .button {
@@ -559,7 +559,7 @@
 	text-align:right;
 	padding: 0 0 0 350px;
 }
-#personal-area.slider .personal-text h1{
+#personal-area.slider .personal-text h2{
 	margin-bottom:10px;
 }
 #personal-area.slider .button{
@@ -596,7 +596,7 @@
 }
 
 /* Slider Animation */
-#personal-area.slider .owl-item.active .personal-text h1{
+#personal-area.slider .owl-item.active .personal-text h2{
 	animation: fadeInDown 1s both 1.2s;
 }
 #personal-area.slider .owl-item.active .personal-text h3{
@@ -610,12 +610,12 @@
 }
 
 /* Personal Video Background */
-#personal-area.video_player{
+/* #personal-area.video_player{
 	background:transparent;
 }
 #personal-area.video_player .personal-single::before {
 	opacity: 0.3;
-}
+} */
 
 /* -------------------------------------------------- Personal CSS*/
 
@@ -1472,7 +1472,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-#testimonials .section-title h1{
+#testimonials .section-title h2{
 	color:#fff;
 }
 #testimonials:before {
