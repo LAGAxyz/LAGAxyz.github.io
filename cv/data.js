@@ -4,19 +4,19 @@ export const certificaciones = [
         lugar: "Instituto de Educación Superior Privado CIBERTEC",
         valor: "Contabilidad Para No Contadores",
         fecha: "2022 junio",
-        imagen: "https://via.placeholder.com/300x500?text=Constancia+en+espera"
+        imagen: "../assets/images/certificado-cibertec-contabilidad.jpg"
     },
     {
         lugar: "Instituto Peruano de Negocios",
         valor: "Cajero Bancario y Comercial",
         fecha: "2021 agosto",
-        imagen: "https://via.placeholder.com/300x500?text=Constancia+en+espera"
+        imagen: "../assets/images/certificado-ipn-cajero.jpg"
     },
     {
         lugar: "CodiGo by TECSUP",
         valor: "BootCamp de Desarrollo Web Full Stack",
         fecha: "2021 febrero",
-        imagen: "https://via.placeholder.com/300x500?text=Constancia+en+espera"
+        imagen: "../assets/images/certificado-codigo-fullstack.jpg"
     },
     {
         lugar: "Instituto Científico del Pacífico",
