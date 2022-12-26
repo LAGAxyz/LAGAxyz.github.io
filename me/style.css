@@ -2103,53 +2103,53 @@
 }
 
 /* Blog Comments */
-#blog .blog-comments {
+/* #blog .blog-comments {
 	margin-top: 30px;
 	background: #fff;
 	padding: 20px;
-}
-#blog .blog-comments h3{
+} */
+/* #blog .blog-comments h3{
 	text-align:center;
 	text-transform:capitalize;
 	font-size:20px;
-}
-#blog .single-comments {
+} */
+/* #blog .single-comments {
 	overflow: hidden;
 	border-bottom: 1px solid #e2e2e2;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
-}
-#blog .single-comments:last-child{
+} */
+/* #blog .single-comments:last-child{
 	border-bottom:0px solid;
 	padding:0px;
 	margin:0;
-}
-#blog .single-comments .main {
+} */
+/* #blog .single-comments .main {
 	overflow: hidden;
 	padding-bottom: 15px;
-}
-#blog .single-comments .head {
+} */
+/* #blog .single-comments .head {
 	float: left;
 	margin-right: 20px;
 	text-align: center;
 	width: 12%;
-}
-#blog .single-comments .head img {
+} */
+/* #blog .single-comments .head img {
 	border-radius: 100%;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
-}
-#blog .single-comments .body {
+} */
+/* #blog .single-comments .body {
 	float: left;
 	width: 80%;
-}
-#blog .single-comments .comment-list {
+} */
+/* #blog .single-comments .comment-list {
 	margin-top: 30px;
 	padding-top: 30px;
 	border-top: 1px solid #e2e2e2;
-}
-#blog .single-comments h4 {
+} */
+/* #blog .single-comments h4 {
 	margin: 0 0 3px;
 	font-size: 18px;
 	text-align: left;
@@ -2186,13 +2186,13 @@
 }
 #blog .single-comments.login a:hover{
 	color:#353535;
-}
+} */
 
 /* -------------------------------------------------- Blog CSS */
 
 /* -------------------------------------------------- Call to action CSS */
 
-#call-action {
+/* #call-action {
 	position: relative;
 	overflow: hidden;
 	background-image: url('http://via.placeholder.com/1500x800');
@@ -2258,7 +2258,7 @@
 }
 #call-action .btn:hover{
 	color:#fff;
-}
+} */
 
 /* -------------------------------------------------- Call to action CSS */
 
