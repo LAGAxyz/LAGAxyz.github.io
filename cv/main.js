@@ -6,7 +6,7 @@ const btnModal = document.getElementById("btnModal");
 
 document.getElementById("btn01").onclick = ()=> {
     modal.style.display = "flex";
-    imgModal.src = "../assets/images/certificado-egreso-sise.jpg"
+    imgModal.src = "../assets/images/certificado-titulo-sise.jpg"
 }
 
 document.getElementById("btn02").onclick = ()=> {
