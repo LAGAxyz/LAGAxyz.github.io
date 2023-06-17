@@ -13,5 +13,5 @@
 ------------
 
 <p align="center">
-Simplemente me gusta todo aquello que considero como "interesante" y "elegante" a la vez. Si no es para cambiar el mundo, mantén tu distancia de mi. No me malinterpretes, lo hago por tu bien... cada día vivo al máximo y eso es peligroso para algunos. En fin, si te caigo bien, puedes llamarme LAGA.
+Aunque me retuerza de dolor, no retrocederé a mi palabra.
 </p>

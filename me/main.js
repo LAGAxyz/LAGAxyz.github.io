@@ -86,41 +86,8 @@
 			dots:false,
 			items: 1,
 			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-		});	
+		});
 		
-		// $(".blog-carousel").owlCarousel({
-		// 	loop:true,
-		// 	autoplay:false,
-		// 	autoplayTimeout:4000,
-		// 	smartSpeed: 600,
-		// 	margin:15,
-		// 	nav:false,
-		// 	dots:true,
-		// 	responsive:{
-		// 		300: {items: 1,},
-		// 		480: {items: 1,},
-		// 		768: {items: 2,},
-		// 		1170: {items: 3,},
-		// 	}
-		// });	
-		
-		// $("#blog .slide").owlCarousel({
-		// 	loop:true,
-		// 	autoplay:true,
-		// 	autoplayTimeout:3500,
-		// 	smartSpeed: 600,
-		// 	mouseDrag: true,
-		// 	nav:true,
-		// 	navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-		// 	dots:true,
-		// 	responsive:{
-		// 		320: {items: 1, dots:false, nav:false,},
-		// 		480: {items: 1, dots:false, nav:false,},
-		// 		768: {items: 1,},
-		// 		1170: {items: 1,},
-		// 	}
-		// });
-
 		$(".clients-slider").owlCarousel({
 			loop:true,
 			autoplay:false,
