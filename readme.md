@@ -1,10 +1,10 @@
-
+﻿
 <h2 align="center">Sitio Web Personal: LAGA</h2>
 
 ------------
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/LAGAxyz/LAGAxyz/master/Foto%20(2022).png" width="100">
+<img src="https://raw.githubusercontent.com/LAGAxyz/LAGAxyz/master/Foto%20(2023).png" width="100">
 </p>
 
 <p align="center"><b>"Si vis pacem, para bellum"</b></p>
